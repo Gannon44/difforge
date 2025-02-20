@@ -1,6 +1,6 @@
 # Difforge
 
-Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a voxel-based diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
+Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
 
 ## Project Structure
 
