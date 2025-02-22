@@ -1,0 +1,3 @@
+[submodule "diffusion/voxel-diffusion-minecraft"]
+	path = diffusion/voxel-diffusion-minecraft
+	url = https://github.com/Xeygy/voxel-diffusion-minecraft.git
