@@ -1,0 +1,11 @@
+name: csc570_env
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python==3.9.18
+  - wxpython
+  - numpy==1.21.6
+  - beautifulsoup4
+  - selenium
+prefix: /Users/dhern162/miniconda3/envs/csc570_env
