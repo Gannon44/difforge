@@ -1,0 +1,7 @@
+litemapy==0.7.2b0
+pandas==2.1.1
+Requests==2.31.0
+numpy==1.26.4
+pillow
+bs4
+tqdm
