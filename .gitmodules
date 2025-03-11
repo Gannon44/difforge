@@ -1,0 +1,3 @@
+[submodule "datatype"]
+	path = datatype
+	url = git@github.com:Gannon44/mc-vectorizer.git
