@@ -1,3 +1,6 @@
 [submodule "diffusion/voxel-diffusion-minecraft"]
 	path = diffusion/voxel-diffusion-minecraft
 	url = https://github.com/Xeygy/voxel-diffusion-minecraft.git
+[submodule "models/XFRMs"]
+	path = models/XFRMs
+	url = https://github.com/davidh167/DifForge-XFMR.git
