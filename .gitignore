@@ -173,6 +173,9 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# IDE Config files
+.idea/
+
 # Any repo specific ignore rules
 datatype/dataset
 datatype/*dataset*/
