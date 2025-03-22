@@ -1,3 +1,6 @@
+[submodule "datatype"]
+	path = datatype
+	url = git@github.com:Gannon44/mc-vectorizer.git
 [submodule "diffusion/voxel-diffusion-minecraft"]
 	path = diffusion/voxel-diffusion-minecraft
 	url = https://github.com/Xeygy/voxel-diffusion-minecraft.git

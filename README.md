@@ -2,21 +2,28 @@
 
 Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
 
+Difforge is a project for a class at Cal Poly SLO (CSC 570 - AI in Games - Rodrigo Canaan)
+
+This repo holds code for different models we tried throughout the quarter. Many of these models failed to generate interesting buildings, but we still include the code in this repo. Because many of the models were fundamentally different and relied on completely different libraries, we have included requirements.txt files in the different dirs of this repo. 
+
+## TODO:
+- Continue training diffusion models to generate structures.
+- Convert this repo into a streamlined Minecraft PCGML repo. Ideally, this codebase would be more modular. There would be one python file that could be called to train/evaluate a number of models. There would be a singular requirements.txt file that contains only the necessary packages to run our code.
+- Add functionality to the MC Vectorizer submodule in datatype/. Ideally, this package could translate between Litematic, Schematic, GrabCraft Blueprints, Render Objects, and a string based format for transformers (see [MarioGPT's](https://github.com/shyamsn97/mario-gpt/tree/main) level encoding scheme).
+
+ 
 ## Project Structure
 
-The repository will *ideally* be organized as follows:
+The repository is organized as follows:
 
 ```
 ├── difforge
-│   ├── diffusion        # Contains the diffusion model for voxel-based generation
 │   ├── datatype         # Custom data formats and block vectorization logic
+│   ├── diffusion        # Contains the diffusion model for voxel-based generation
+│   ├── mcvis           # Visualizations for models
 │   ├── scraper         # Web scraper for gathering Minecraft structure data
-│   ├── utils           # Helper functions and utilities
-│   ├── tests           # Unit tests for various components
-│   ├── models          # Trained models and checkpoints
-│   ├── requirements.txt # Pip dependencies
-│   ├── environment.yml  # Conda environment file
 │   ├── .gitignore       # Files to be ignored by Git
+│   ├── .gitmodules       # Submodules included in this repo
 │   ├── README.md        # Project documentation
 ```
 
