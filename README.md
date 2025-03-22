@@ -3,14 +3,20 @@
 Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
 
 Difforge is a project for a class at Cal Poly SLO (CSC 570 - AI in Games - Rodrigo Canaan)
+Project Team Members: David Hernandez, Gannon Gonsiorowski, Mitashi Parikh and Xiuyuan Qiu
 
 This repo holds code for different models we tried throughout the quarter. Many of these models failed to generate interesting buildings, but we still include the code in this repo. Because many of the models were fundamentally different and relied on completely different libraries, we have included requirements.txt files in the different dirs of this repo. 
 
+## Results
+Results are provided in the ```mcvis/``` directory. Since diffusion can be computationally intensive, we have a [video version of our demo](https://www.youtube.com/watch?v=tiw2H88Os1Q).
+
+## Usage
+See individual directories and submodules for usages. See ```TODO``` section below for more information.
+
 ## TODO:
-- Continue training diffusion models to generate structures.
 - Convert this repo into a streamlined Minecraft PCGML repo. Ideally, this codebase would be more modular. There would be one python file that could be called to train/evaluate a number of models. There would be a singular requirements.txt file that contains only the necessary packages to run our code.
 - Add functionality to the MC Vectorizer submodule in datatype/. Ideally, this package could translate between Litematic, Schematic, GrabCraft Blueprints, Render Objects, and a string based format for transformers (see [MarioGPT's](https://github.com/shyamsn97/mario-gpt/tree/main) level encoding scheme).
-
+- Continue training diffusion models to generate structures.
  
 ## Project Structure
 
