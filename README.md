@@ -1,6 +1,6 @@
 # Difforge
 
-Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a voxel-based diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
+Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
 
 ## Project Structure
 
@@ -39,7 +39,7 @@ The repository will *ideally* be organized as follows:
   ```
 - A `conda` environment is recommended for development. Create it with:
   ```sh
-  conda env create -f environment.yml
+  conda env create -f backup_env.yml
   conda activate difforge
   ```
 - When adding new dependencies:
@@ -66,7 +66,7 @@ We welcome contributions! To get started:
    ```
 3. **Set Up the Environment** –
    ```sh
-   conda env create -f environment.yml
+   conda env create -f backup_env.yml
    conda activate difforge
    pip install -r requirements.txt
    ```
