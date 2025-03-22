@@ -21,7 +21,9 @@ The repository is organized as follows:
 │   ├── datatype         # Custom data formats and block vectorization logic
 │   ├── diffusion        # Contains the diffusion model for voxel-based generation
 │   ├── mcvis           # Visualizations for models
+│   ├── models          # Trained models and checkpoints
 │   ├── scraper         # Web scraper for gathering Minecraft structure data
+│   ├── utils           # Helper functions and utilities
 │   ├── .gitignore       # Files to be ignored by Git
 │   ├── .gitmodules       # Submodules included in this repo
 │   ├── README.md        # Project documentation
