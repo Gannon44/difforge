@@ -176,3 +176,4 @@ cython_debug/
 # Any repo specific ignore rules
 datatype/dataset
 datatype/*dataset*/
+.vscode/
