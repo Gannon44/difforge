@@ -3,6 +3,7 @@
 Difforge is a diffusion model designed to generate structures in Minecraft. It integrates a diffusion process with custom data formats, a block vectorizer, and a web scraper to collect and process Minecraft structures. The project aims to generate realistic and creative structures using AI-driven techniques.
 
 Difforge is a project for a class at Cal Poly SLO (CSC 570 - AI in Games - Rodrigo Canaan)
+
 Project Team Members: David Hernandez, Gannon Gonsiorowski, Mitashi Parikh and Xiuyuan Qiu
 
 This repo holds code for different models we tried throughout the quarter. Many of these models failed to generate interesting buildings, but we still include the code in this repo. Because many of the models were fundamentally different and relied on completely different libraries, we have included requirements.txt files in the different dirs of this repo. 
